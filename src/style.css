@@ -1,0 +1,56 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding-top: 150px;
+  margin: 0;
+  font-family: Helvetica, Verdana, Tahoma, sans-serif;
+  color: #e4e4e4;
+  background: url(./img/bg1.jpg) center / cover no-repeat;
+}
+
+.page-title {
+  margin-bottom: 30px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.page-descr {
+  margin-bottom: 130px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.page-btn {
+  margin: 0 auto 5px auto;
+  display: block;
+  padding: 15px 25px;
+  font-size: 18px;
+  color: inherit;
+  background-color: transparent;
+  border: 2px solid #dadada;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s box-shadow ease-in-out, 0.2s color ease-in-out, 0.2s background-color ease-in-out;
+}
+
+.page-btn:hover {
+  color: #717171;
+  background-color:  #dadada;
+}
+
+.page-btn:active {
+  color: #717171;
+  background-color:  #dadada;
+  box-shadow: rgb(172, 172, 172) 3px 3px 6px 0px inset, rgba(173, 173, 173, 0.5) -3px -3px 6px 1px inset;
+}
+
+
+
+
